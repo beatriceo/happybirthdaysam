@@ -1,6 +1,7 @@
 body {
   background: black;
   text-align: center;
+  font-family: "Times New Roman", Times, serif !important;
 }
 
 img {
@@ -9,6 +10,10 @@ img {
 }
 
 
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 #million {
   height: 100px;
@@ -85,14 +90,19 @@ a {
   color: white;
 }
 
-td img {
+.spin img {
   /*border-radius: 50%;*/
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-td img:hover {
+.spin img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
 }
 
 .slidecaption {
@@ -137,12 +147,12 @@ td img:hover {
     }
 }
 
-td video {
+video {
   /*border-radius: 50%;*/
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-td video:hover {
+video:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
