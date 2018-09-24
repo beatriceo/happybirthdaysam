@@ -13,10 +13,10 @@
 
 <body>
 
-<!-- 
+<!--
 
  Fireworks elements (cloned and animated via script):
- 
+
  #sound
  #fireworks-template
  #fireContainer
@@ -27,33 +27,103 @@
 
 <a href="#"><img src="million.gif" id="million"/></a>
 
-<div id="hot-single">
-	<h3>HOT SINGLE IN YOUR AREA</h3>
-	<img src="hot-single.jpg" alt="" />
-	<h4>Click <a href="#">here</a> for details</h4>
-</div>
 
-<div id="hate">
-	<h2>Scientists <span class="red">HATE</span> him</h2>
-	<div id="drinking">
-		<img src="drinking.jpg" />
-		<p>BEFORE</p>
-	</div>
-	<div id="dino">
-		<img src="dinosaur.jpg" />
-		<p>AFTER</p>
-	</div>
-	<div class="clear">
-		Man discovers secret human-dinosaur-rockstar transformation recipe! <a href="#">LEARN MORE</a>
-	</div>
-</div>
+<table>
+  <tr>
+    <td>
+      <div id="hot-single">
+        <h3>HOT SINGLE IN YOUR AREA</h3>
+        <img src="sam_photos/02.jpg" alt="" />
+        <h4 class="text-white">Click <a href="#">here</a> for details</h4>
+      </div>
+    </td>
+    <td>
+      <div id="hot-single">
+        <div id="drinking">
+          <img src="sam_photos/05.jpg" />
+        </div>
+      </div>
+    </td>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/03.jpg" alt="" />
+      </div>
+    </td>
+    <td class="text-white">
+      <video src="sam_photos/output.MOV" autoplay muted loop></video>
+    </td>
+
+  </tr>
+  <tr>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/08.jpg" alt="" />
+      </div>
+    </td>
+    <td class="text-white">
+      <video src="sam_photos/IMG_0253.mov" autoplay muted loop></video>
+    </td>
+    <td class="text-white">
+      <h1 class="blink" id="birthday-text">HAPPY BIRTHDAY SAM</h1>
+      <img src="sam_photos/01.jpg" id="john-pic">
+    </td>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/11.jpg" alt="" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="text-white">
+      <video src="sam_photos/IMG_0078.mov" autoplay muted loop></video>
+    </td>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/13.jpg" alt="" />
+      </div>
+    </td>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/10.jpg" alt="" />
+      </div>
+    </td>
+    <td class="text-white">
+      <div id="hot-single">
+        <div id="dino">
+          <img src="sam_photos/06.jpg" />
+        </div>
+        <div class="clear">
+          YEETED <a href="#">LEARN MORE</a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/04.jpg" alt="" />
+      </div>
+    </td>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/12.jpg" alt="" />
+      </div>
+    </td>
+    <td class="text-white">
+      <video src="sam_photos/IMG_0079.mov" autoplay muted loop></video>
+    </td>
+    <td class="text-white">
+      <div id="hot-single">
+        <img src="sam_photos/09.jpg" alt="" />
+      </div>
+    </td>
+  </tr>
+</table>
 
 
-<img src="john.jpg" id="john-pic">
-		<h1 class="blink" id="birthday-text">HAPPY BIRTHDAY JOHN</h1>
+
 
 <div id="sound">
-
 </div>
 
 <div id="fireworks-template">
@@ -64,18 +134,15 @@
 <div id="fireContainer"></div>
 
 
-
-
-
 <script>
 
 
 addEventHandler(window,'load', function() {
 	setInterval( function(){createFirework(25,30,3,4,null,null,null,null,false,true);}, 500);
-	
+
 });
 </script>
- 
+
 
 
 </body>

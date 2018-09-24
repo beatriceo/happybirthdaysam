@@ -24,11 +24,11 @@ img {
   color: red;
 }
 
-#hot-single {
+/*#hot-single {
   float: left;
   color: blue;
   position: absolute;
-}
+}*/
 
 #hot-single img {
   width: 160px;
@@ -79,6 +79,15 @@ a {
 .blink {
   animation: blink 0.8s steps(5, start) infinite;
   -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+.text-white {
+  color: white;
+}
+
+video {
+  height: 200px;
+  width: 200px;
 }
 
 @keyframes blink {
